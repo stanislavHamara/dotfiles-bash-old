@@ -4,15 +4,12 @@
     amend = commit --amend --no-edit
 [color]
     ui = true
-[interactive]
-    diffFilter = diff-highlight
-[pager]
-    log = diff-highlight | less -FRSX
-    diff = diff-highlight | less -FRSX
-    show = diff-highlight | less -FRSX
 [help]
     autocorrect = 1
+[interactive]
+    diffFilter = diff-so-fancy
 [core]
+    pager = diff-so-fancy | less --tabs=4 -FRSX
     excludesfile = ~/.gitignore.global
 [include]
     path = ~/.gitconfig.user
@@ -22,5 +19,8 @@
     path = ~/.gitconfig.windows
 [pull]
     ff = only
+[diff-so-fancy]
+    markEmptyLines = false
+    changeHunkIndicators = false
 
 # vim: set ft=gitconfig :
