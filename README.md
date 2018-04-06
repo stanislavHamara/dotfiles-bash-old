@@ -17,10 +17,10 @@
 
 ## Installation
 
-Download and run the [install script](https://gist.github.com/alextercete/73b3019dc9c057decbb2cb54cb00e88c). Alternatively, run the following:
+Download and run the [install script](https://gist.github.com/stanislavHamara/0b59c210e1f3f796d39c19b9113e2d33). Alternatively, run the following:
 
 ```shell
-curl -s https://gist.githubusercontent.com/alextercete/73b3019dc9c057decbb2cb54cb00e88c/raw/dotfiles.sh | bash
+curl -s https://gist.githubusercontent.com/stanislavHamara/0b59c210e1f3f796d39c19b9113e2d33/raw/dotfiles.sh | bash
 ```
 
 ## Configuration
