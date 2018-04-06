@@ -1,4 +1,4 @@
-# Alex's dotfiles
+# Stan's dotfiles
 
 ## Setup
    
