@@ -14,6 +14,7 @@ alias gs='git status'
 alias gd='git diff'
 alias gds='git diff --staged'
 alias gg='git graph'
+alias gf='git fetch --prune'
 alias dotfiles='git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 
 # Set up autocomplete for Git aliases
