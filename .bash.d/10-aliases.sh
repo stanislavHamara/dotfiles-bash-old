@@ -17,6 +17,7 @@ alias gg='git graph'
 alias gf='git fetch --prune'
 alias dotfiles='git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 alias awslogin='$(aws ecr get-login --no-include-email)'
+alias grafana='kubectl --namespace monitoring port-forward svc/grafana 9000'
 
 # Set up autocomplete for Git aliases
 if declare -F __git_complete >/dev/null; then
