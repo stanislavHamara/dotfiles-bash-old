@@ -2,11 +2,6 @@
 unlet! skip_defaults_vim
 source $VIMRUNTIME/defaults.vim
 
-" Use Pathogen
-runtime bundle/pathogen/autoload/pathogen.vim
-call pathogen#infect()
-
-
 "-------------------------------------
 " APPEARANCE
 "-------------------------------------
@@ -18,7 +13,6 @@ set colorcolumn=120
 
 set background=dark
 let g:gruvbox_invert_selection=0
-colorscheme gruvbox
 
 
 "-------------------------------------

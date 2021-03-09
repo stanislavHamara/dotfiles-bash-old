@@ -19,6 +19,7 @@ alias dotfiles='git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 alias awslogin='$(aws ecr get-login --no-include-email)'
 alias grafana='kubectl --namespace monitoring port-forward svc/grafana 9000'
 alias cat='bat'
+alias yp='yarn generate:pseudo:i18n'
 
 # Set up autocomplete for Git aliases
 if declare -F __git_complete >/dev/null; then
